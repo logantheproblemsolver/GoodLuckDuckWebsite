@@ -2,3 +2,17 @@
     box-sizing: border-box;
 }
 
+
+#contactname {
+    width: auto;
+    height: auto;
+}
+#emailname {
+    width: auto;
+    height: auto;
+}
+
+#reasonforcontact {
+    width: auto;
+    height: auto;
+}
