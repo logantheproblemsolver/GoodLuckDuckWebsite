@@ -19,7 +19,7 @@
 
 
 .header {
-    background-color:#B0E0E6;
+    background-color:#C9ADB1;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 
 }
@@ -29,7 +29,7 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #B0E0E6;
+    background-color: #C9ADB1;
     text-align: right;
     font-family: 'Lato', sans-serif;
 }
@@ -58,7 +58,7 @@
 .header .menu-icon {
     cursor: pointer;
     float: right;
-    user-select: none;
+    user-select: none; 
     background-color: #C9ADB1;
     margin-right: 15px;
     margin-top: 15px;
