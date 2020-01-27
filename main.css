@@ -19,7 +19,7 @@
 
 
 .header {
-    background-color:#C9ADB1;
+    background-color:#B0E0E6;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 
 }
@@ -29,7 +29,7 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #C9ADB1;
+    background-color: #B0E0E6;
     text-align: right;
     font-family: 'Lato', sans-serif;
 }
