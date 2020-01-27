@@ -50,7 +50,7 @@
     transition: max-height .2s ease-out;
 }
 
-/* menu icon */
+/* hamburger menu icon */
 
 .navicon {
     color: transparent;
@@ -118,4 +118,21 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
+}
+
+/* Contact Us Page */
+
+
+#contactform {
+    width: 100%;
+}
+
+#contactpage {
+    text-align: center;
+    border: none;
+}
+
+
+.contactbox {
+    border: 1px solid black;
 }

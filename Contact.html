@@ -21,11 +21,22 @@
       </nav>
     </header>
       <main>
-        <form>
-            <fieldset>
-                <input type="text" name="firstandlastname" placeholder="First and Last name" class="contactname"/>
-                <input type="email" name="email" placeholder="Email@email.com" class="emailname"/>
-                <input type="text"  name="reasonforcontact" placeholder="Reason for Contacting Us" class="reasonforcontact"/>
+        <form id="contactform">
+            <fieldset id="contactpage">
+              <label class="contactlabel">
+                Please Enter your name:  <br>
+                <input type="text" name="firstandlastname" placeholder="First and Last name" id="namebox" class="contactbox"/>
+              </label>
+              <br>
+              <label class="contactlabel">
+                Please enter your email: <br>
+                <input type="email" name="email" placeholder="Email@email.com" id="emailbox" class="contactbox"/> <br>
+              </label>
+              <br>
+              <label class="contactlabel">
+                What is the reason for contact? <br>
+                <input type="text"  name="reasonforcontact" placeholder="Reason for Contacting Us" id="contactreason" class="contactbox"/> <br>
+              </label>
             </fieldset>
         </form>
 
